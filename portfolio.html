@@ -8,13 +8,13 @@
     <link rel= "stylesheet" type = "text/css" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
 </head>
 
-<body>
+<body background = "images/morocco.png">
 
     <!--outer row 1 = header + nav bar-->
-    <div class="row">
+    <div class="p-3 mt-3 mb-3 row" style = background-color:#ffffff >
         <row class= "col-md-2"></row>
         <row class="col-md-3">
-            <h1>Sabrina Rolz</h1>
+            <h1 class="text-light text-center" style = background-color:#4aaaa5;>Sabrina Rolz</h1>
         </row>
         <row class= "col-md-2"></row>
 
@@ -28,13 +28,13 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="index.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="portfolio.html">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link" href="contact.html">Portfolio</a>
                         </li>
                         </ul>
                     </div>
@@ -46,47 +46,40 @@
 
     <!--outer row 2 = body + footer-->
     <!--outer row 2 has 3 columns = middle column is container-->
-    <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-6">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
             <!--container has 4 sub rows = h2 + 3 rows of images-->
-            <div class = "container">
+            <div class = "p-4 m-5 container"  style = background-color:#ffffff;>
 
-                <div class="row">
-                    <div class="col-md-2"></div>
-                        <h2 class="float-left">Portfolio</h2>
-                        <!--<h2 class = "float-left">Portfolio</h2>-->
-                    <div class="col-md-10"></div>
+                <div class="text-info ml-2 row">
+                    <h2>Portfolio</h2>
                 </div>
 
-                <div class="row">
-                    <div class ="col-md-1"></div>
-                    <div class="col-md-3">
+                <div class="border-top m-3 pt-4 row">
+                    <div class="col-md-4">
                         <img src = "images/hangman.png" class="img-thumbnail" width= 200px height = 200px>
+                        <figcaption class="figure-caption">Hangman</figcaption>
                     </div>
-                    <div class= "col-md-1"></div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <img src = "images/rockpaper.png" class = "img-thmbnail" width = 200px height= 200px>
+                        <figcaption class="figure-caption">Rock Paper Scissors</figcaption>
                     </div>
-                    <div class="col-md-4"></div>
                 </div>
                 <div class="row">
-                    <div class = "col-md-1"></div>
-                    <div class="col-md-3">
+                    <div class="mr-2 col-md-4">
                         <img src = "images/trivia.png" class = "img-thmbnail" width = 200px height= 200px>
+                        <figcaption class="figure-caption">Trivia</figcaption>
                     </div>
-                    <div class = "col-md-1"></div>
-                    <div class="col-md-3">
+                    <div class="ml-2 col-md-4">
                         <img src = "images/wordsearch.jpg" class = "img-thmbnail" width = 200px height= 200px>
+                        <figcaption class="figure-caption">Word Search</figcaption>
                     </div>
-                    <div class="col-md-4"></div>
                 </div>
-                <div class="row">
-                    <div class = "col-md-1"></div>
-                    <div class="col-md-3">
+                <div class=" m-3 pt-4 row">
+                    <div class="col-md-4">
                         <img src = "images/hangman.png" class="img-thumbnail" width= 200px height = 200px>
+                        <figcaption class="figure-caption">Hangman 2</figcaption>
                     </div>
-                    <div class="col-md-8"></div>
                 </div>
 
 
@@ -94,7 +87,12 @@
             </div>
         </div>
     </div>
-        <div class="col-md-3"></div>
+
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <small>Copyright &copy;</small>
+        </div>
+    </footer>
     
 </body>
 </html>
